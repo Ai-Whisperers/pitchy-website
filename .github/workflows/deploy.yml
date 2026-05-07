@@ -3,18 +3,36 @@ on:
   push:
     branches: [main]
 jobs:
-  ci:
-    uses: Ai-Whisperers/ci-cd/.github/workflows/ci-nextjs.yml@main
-    with:
-      site-url: 'http://localhost:3000'
-      package-manager: 'npm'
-      node-version: '20'
-    secrets: inherit
   deploy:
-    needs: ci
-    uses: Ai-Whisperers/ci-cd/.github/workflows/deploy-vps.yml@main
-    with:
-      site-name: 'pitchy-website'
-      package-manager: 'npm'
-      node-version: '20'
-    secrets: inherit
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+          cache: 'npm'
+
+      - name: Install dependencies
+        run: npm ci --legacy-peer-deps
+
+      - name: Build
+        run: npm run build
+
+      - name: Setup SSH
+        run: |
+          mkdir -p ~/.ssh
+          echo "${{ secrets.VPS_KEY }}" > ~/.ssh/id_ed25519
+          chmod 600 ~/.ssh/id_ed25519
+          ssh-keyscan -H ${{ secrets.VPS_HOST }} >> ~/.ssh/known_hosts 2>/dev/null || true
+
+      - name: Deploy via SSH
+        run: |
+          ssh -o StrictHostKeyChecking=accept-new ${{ secrets.VPS_USER }}@${{ secrets.VPS_HOST }} \
+            "cd /root/pitchy-website && \
+             git fetch origin && git reset --hard origin/main && \
+             npm ci --legacy-peer-deps && npm run build && \
+             docker build -t pitchy:prod . && \
+             docker stack deploy -c docker-compose.yml pitchy --with-registry-auth || \
+             docker compose up -d --build"
