@@ -1,5 +1,6 @@
 "use client"
 import content from "@/content/es.json"
+import { BreadcrumbJsonLd } from "@/components/breadcrumb-jsonld"
 
 const c = content as any
 const info = c.contacto?.info || {}
@@ -9,6 +10,7 @@ const waUrl = `https://wa.me/${waPhone}?text=${encodeURIComponent("Hola Pitchy, 
 export default function Contacto() {
   return (
     <div className="max-w-4xl mx-auto px-4 py-12">
+      <BreadcrumbJsonLd items={[{ name: "Contacto", url: "/contacto" }]} />
       <h1 className="text-4xl font-bold text-[#1A1A2E] mb-2">Contacto</h1>
       <p className="text-[#6B7280] mb-10 max-w-2xl">Estamos listos para ayudarte con tu proyecto. Respondemos consultas técnicas y comerciales todos los días.</p>
 

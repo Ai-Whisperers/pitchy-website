@@ -1,12 +1,29 @@
 "use client"
 import content from "@/content/es.json"
+import { BreadcrumbJsonLd } from "@/components/breadcrumb-jsonld"
 
 const c = content as any
+const baseUrl = c.site?.url || "https://pitchy.paragu-ai.com"
 const productos = c.products || []
+
+function ProductJsonLd({ p }: { p: any }) {
+  const data = {
+    "@context": "https://schema.org",
+    "@type": "Product",
+    "name": p.name,
+    "description": p.description,
+    "category": p.applications?.[0] || "Construcción",
+    "url": `${baseUrl}/productos#${p.id}`,
+    "offers": { "@type": "Offer", "availability": "https://schema.org/InStock", "priceCurrency": "PYG", "price": "0" }
+  }
+  return <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(data) }} />
+}
 
 export default function ProductosPage() {
   return (
     <div className="max-w-7xl mx-auto px-4 py-12">
+      <BreadcrumbJsonLd items={[{ name: "Productos", url: "/productos" }]} />
+      {productos.map((p: any) => <ProductJsonLd key={p.id} p={p} />)}
       <h1 className="text-4xl font-bold text-[#1A1A2E] mb-2">Productos</h1>
       <p className="text-[#6B7280] mb-10 max-w-2xl">Vidrio Blindex certificado para proyectos de construcción de todos los tamaños. Stock local, entrega rápida.</p>
 

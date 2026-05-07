@@ -3,6 +3,7 @@ import "./globals.css"
 import { Inter } from "next/font/google"
 import { CookieConsent } from "@ai-whisperers/seo/cookie-consent"
 import { WhatsAppFloat } from "@ai-whisperers/whatsapp/whatsapp-float"
+import { MobileCta } from "@/components/mobile-cta"
 import content from "@/content/es.json"
 
 const c = content as any
@@ -22,9 +23,10 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
         <meta name="theme-color" content={c.theme?.color || "#0F62FE"} />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
       </head>
-      <body className="antialiased">
+      <body className="antialiased pb-20 md:pb-0">
         {children}
         <WhatsAppFloat phone={c.contact?.whatsapp || ""} message={c.whatsapp?.defaultMessage} />
+        <MobileCta />
         <CookieConsent config={c.cookieConsent} />
       </body>
     </html>

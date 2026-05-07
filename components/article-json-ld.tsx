@@ -1,3 +1,8 @@
+import content from "@/content/es.json"
+
+const c = content as any
+const baseUrl = c.site?.url || "https://pitchy.paragu-ai.com"
+
 export function ArticleJsonLd({ title, description, date, author, slug }: {
   title: string; description: string; date: string; author: string; slug: string
 }) {
@@ -8,10 +13,9 @@ export function ArticleJsonLd({ title, description, date, author, slug }: {
     "description": description,
     "datePublished": date,
     "author": { "@type": "Person", "name": author },
-    "url": `https://fun4me.paragu-ai.com/blog/${slug}`,
-    "mainEntityOfPage": { "@type": "WebPage", "@id": `https://fun4me.paragu-ai.com/blog/${slug}` }
+    "url": `${baseUrl}/blog/${slug}`,
+    "mainEntityOfPage": { "@type": "WebPage", "@id": `${baseUrl}/blog/${slug}` }
   }
-
   return (
     <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(data) }} />
   )

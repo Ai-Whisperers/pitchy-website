@@ -1,6 +1,7 @@
 "use client"
 import { useState } from "react"
 import content from "@/content/es.json"
+import { BreadcrumbJsonLd } from "@/components/breadcrumb-jsonld"
 
 const c = content as any
 const productos = c.products || []
@@ -55,6 +56,7 @@ Mensaje: ${form.mensaje}`
 
   return (
     <div className="max-w-3xl mx-auto px-4 py-12">
+      <BreadcrumbJsonLd items={[{ name: "Cotizar", url: "/cotizar" }]} />
       <h1 className="text-4xl font-bold text-[#1A1A2E] mb-2">Solicitar Cotización</h1>
       <p className="text-[#6B7280] mb-8">Completá el formulario y te enviamos un presupuesto detallado en el día.</p>
 

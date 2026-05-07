@@ -1,5 +1,6 @@
 "use client"
 import content from "@/content/es.json"
+import { BreadcrumbJsonLd } from "@/components/breadcrumb-jsonld"
 
 const c = content as any
 const n = c.nosotros || {}
@@ -9,6 +10,7 @@ const values = n.values || []
 export default function Nosotros() {
   return (
     <div className="max-w-5xl mx-auto px-4 py-12">
+      <BreadcrumbJsonLd items={[{ name: "Nosotros", url: "/nosotros" }]} />
       <h1 className="text-4xl font-bold text-center text-[#1A1A2E] mb-2">{n.title || "Sobre Pitchy Blindex"}</h1>
       <p className="text-[#6B7280] text-center mb-10 max-w-2xl mx-auto">{n.subtitle || ""}</p>
 
