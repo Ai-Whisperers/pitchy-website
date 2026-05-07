@@ -1,7 +1,7 @@
 services:
   web:
     build: .
-    image: superspuma:prod
+    image: pitchy:prod
     ports: ["3000"]
     networks: [agent-net]
     deploy:
@@ -12,11 +12,11 @@ services:
         reservations: { memory: 128M, cpus: '0.1' }
       labels:
         - "traefik.enable=true"
-        - "traefik.http.routers.superspuma.entrypoints=websecure"
-        - "traefik.http.routers.superspuma.rule=Host(`superspuma.paragu-ai.com`)"
-        - "traefik.http.routers.superspuma.tls=true"
-        - "traefik.http.routers.superspuma.tls.certresolver=letsencryptresolver"
-        - "traefik.http.services.superspuma.loadbalancer.server.port=3000"
+        - "traefik.http.routers.pitchy.entrypoints=websecure"
+        - "traefik.http.routers.pitchy.rule=Host(`pitchy.paragu-ai.com`) || Host(`vitrumpy.paragu-ai.com`)"
+        - "traefik.http.routers.pitchy.tls=true"
+        - "traefik.http.routers.pitchy.tls.certresolver=letsencryptresolver"
+        - "traefik.http.services.pitchy.loadbalancer.server.port=3000"
         - "traefik.docker.network=agent-net"
     healthcheck:
       test: ["CMD", "wget", "--no-verbose", "--tries=1", "--spider", "http://127.0.0.1:3000/"]
