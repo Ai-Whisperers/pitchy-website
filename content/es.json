@@ -258,12 +258,40 @@
       "icon": "🛡️"
     }
   ],
+  "proyectos": [
+    {
+      "name": "Edificio Residencial Torre Este",
+      "location": "Asunción",
+      "scope": "Suministro de vidrio templado y laminado para fachada — 1.200 m²",
+      "year": "2025",
+      "description": "Vidrio templado 10mm y laminado 6+6 para fachada completa de edificio de 18 pisos."
+    },
+    {
+      "name": "Oficinas Corporativas Centro",
+      "location": "Asunción",
+      "scope": "Muro cortina con DVH Low-E — 850 m²",
+      "year": "2024",
+      "description": "Sistema de muro cortina stick con DVH y vidrio Low-E para control solar."
+    },
+    {
+      "name": "Complejo Hotelero",
+      "location": "Encarnación",
+      "scope": "Barandas de vidrio templado y mamparas Blindex — 300 unidades",
+      "year": "2024",
+      "description": "Barandas de vidrio templado 12mm para balcones y mamparas de baño Blindex."
+    }
+  ],
   "faq": [
-    { "question": "¿Cuánto tiempo tarda la entrega?", "answer": "Si el producto está en stock, la entrega es en 24–48 horas. Para pedidos especiales, consultar plazo." },
-    { "question": "¿Hacen instalación?", "answer": "Sí, coordinamos instalación profesional con nuestro equipo especializado." },
-    { "question": "¿Trabajan con constructoras?", "answer": "Sí, trabajamos con constructoras y contratistas. Ofrecemos crédito a 30 y 60 días." },
-    { "question": "¿Qué certificaciones tiene el vidrio?", "answer": "Trabajamos con vidrio Blindex certificado bajo normas IRAM e ISO." },
-    { "question": "¿Hacen presupuestos sin compromiso?", "answer": "Sí, realizamos la medición y el presupuesto sin cargo." }
+    { "question": "¿Cuánto tiempo tarda la entrega?", "answer": "Si el producto está en stock, la entrega es en 24–48 horas. Para pedidos especiales o grandes volúmenes, consultar plazo." },
+    { "question": "¿Hacen instalación?", "answer": "Sí, coordinamos instalación profesional con nuestro equipo especializado en fachadas y muro cortina." },
+    { "question": "¿Qué espesor de vidrio necesito para una baranda de balcón?", "answer": "Para barandas residenciales recomendamos vidrio templado de 8mm o 10mm. Para barandas comerciales o de mayor altura, 10mm o 12mm. El espesor depende de la altura de la baranda y la carga de viento." },
+    { "question": "¿El vidrio templado se puede cortar después de fabricado?", "answer": "No. El vidrio templado no puede cortarse, perforarse ni modificarse después del templado. Cualquier modificación debe hacerse antes del tratamiento térmico. Por eso es importante contar con medidas exactas antes de fabricar." },
+    { "question": "¿Ofrecen vidrio con control solar para fachadas?", "answer": "Sí, trabajamos con vidrio Low-E que reduce la ganancia de calor solar hasta un 70%. Ideal para fachadas con orientación norte y oeste en el clima cálido de Paraguay." },
+    { "question": "¿Trabajan con constructoras?", "answer": "Sí, trabajamos con constructoras y contratistas. Ofrecemos crédito a 30 y 60 días para proyectos y obras." },
+    { "question": "¿Qué certificaciones tiene el vidrio?", "answer": "Trabajamos con vidrio Blindex certificado bajo normas IRAM e ISO. Consultanos por certificados específicos para tu proyecto." },
+    { "question": "¿Cuál es la diferencia entre vidrio templado y laminado?", "answer": "El templado es 4–5 veces más resistente que el vidrio común y se rompe en fragmentos pequeños no cortantes. El laminado tiene una capa de PVB que mantiene los fragmentos adheridos si se rompe. Para fachadas se recomienda usar ambos: laminado por seguridad y templado por resistencia." },
+    { "question": "¿Hacen presupuestos sin compromiso?", "answer": "Sí, realizamos la medición y el presupuesto sin cargo. Consultanos por WhatsApp o el formulario de cotización." },
+    { "question": "¿Tienen stock permanente o trabajan sobre pedido?", "answer": "Mantenemos stock permanente de vidrio templado y laminado en medidas estándar. Para proyectos especiales o grandes volúmenes, coordinamos los plazos de fabricación." }
   ],
   "blog": [
     {

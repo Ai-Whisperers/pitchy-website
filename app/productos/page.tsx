@@ -39,10 +39,14 @@ export default function ProductosPage() {
                   {p.cta || "Solicitar cotización"}
                 </a>
               </div>
-              <div className="hidden md:flex items-center justify-center bg-gradient-to-br from-[#F8F9FA] to-[#E8ECF0] rounded-xl min-h-[200px]">
-                <span className="text-6xl opacity-30">
-                  {p.id === "vidrio-templado" ? "🔷" : p.id === "vidrio-laminado" ? "🪟" : p.id === "dvh" ? "🪞" : p.id === "muro-cortina" ? "🏢" : p.id === "low-e" ? "☀️" : p.id === "blindex" ? "🚿" : "🔧"}
-                </span>
+              <div className="hidden md:flex items-center justify-center rounded-xl min-h-[200px]"
+                style={{ background: p.id === "vidrio-templado" ? "linear-gradient(135deg, #E8ECF0, #CBD5E1)" : p.id === "vidrio-laminado" ? "linear-gradient(135deg, #D1FAE5, #A7F3D0)" : p.id === "dvh" ? "linear-gradient(135deg, #DBEAFE, #93C5FD)" : p.id === "muro-cortina" ? "linear-gradient(135deg, #F3E8FF, #D8B4FE)" : p.id === "low-e" ? "linear-gradient(135deg, #FEF3C7, #FCD34D)" : p.id === "blindex" ? "linear-gradient(135deg, #E0E7FF, #A5B4FC)" : "linear-gradient(135deg, #FCE4EC, #F48FB1)" }}>
+                <div className="text-center">
+                  <span className="text-5xl opacity-40 block mb-2">
+                    {p.id === "vidrio-templado" ? "🔷" : p.id === "vidrio-laminado" ? "🪟" : p.id === "dvh" ? "🪞" : p.id === "muro-cortina" ? "🏢" : p.id === "low-e" ? "☀️" : p.id === "blindex" ? "🚿" : "🔧"}
+                  </span>
+                  <span className="text-xs font-medium text-[#6B7280] opacity-70">{p.name}</span>
+                </div>
               </div>
             </div>
           </section>
