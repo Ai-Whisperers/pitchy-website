@@ -1,649 +1,335 @@
 {
-  "siteName": "Superspuma",
-  "businessName": "Superspuma",
-  "tagline": "Colchones y Sommiers en Paraguay desde 1976",
-  "metaDescription": "Colchones y sommiers de alta calidad en Paraguay. Fabricación propia desde 1976. Envío a todo el país.",
+  "siteName": "Pitchy Blindex",
+  "businessName": "Pitchy — Vidrios Blindex para la Construcción",
+  "tagline": "Proveemos vidrio templado, laminado y muro cortina para proyectos de construcción en Paraguay.",
+  "metaDescription": "Vidrio Blindex en Paraguay. Proveemos vidrio templado, laminado, DVH, muro cortina y Low-E para edificios comerciales y residenciales. Stock local, entrega rápida.",
+  "site": {
+    "url": "https://pitchy.paragu-ai.com",
+    "title": "Pitchy Blindex — Vidrio para Construcción en Paraguay",
+    "description": "Vidrio Blindex en Paraguay. Proveemos vidrio templado, laminado, DVH, muro cortina y Low-E para edificios comerciales y residenciales."
+  },
+  "theme": {
+    "color": "#0F62FE"
+  },
+  "analytics": {
+    "ga4": ""
+  },
+  "cookieConsent": {
+    "title": "Este sitio usa cookies",
+    "description": "Usamos cookies para mejorar tu experiencia de navegación."
+  },
   "navigation": {
-    "businessName": "Superspuma",
-    "ctaText": "Consultar por WhatsApp",
-    "ctaHref": "https://wa.me/595974202025?text=Hola!%20Quiero%20informaci%C3%B3n%20sobre%20colchones%20Superspuma",
     "items": [
-      {
-        "label": "Inicio",
-        "href": "/"
-      },
-      {
-        "label": "Tienda",
-        "href": "/tienda"
-      },
-      {
-        "label": "Nosotros",
-        "href": "/nosotros"
-      },
-      {
-        "label": "Tiendas",
-        "href": "/tiendas"
-      },
-      {
-        "label": "Guías",
-        "href": "/guias"
-      },
-      {
-        "label": "FAQ",
-        "href": "/faq"
-      },
-      {
-        "label": "Contacto",
-        "href": "/contacto"
-      }
-    ]
+      { "label": "Inicio", "href": "/" },
+      { "label": "Productos", "href": "/productos" },
+      { "label": "Proyectos", "href": "/proyectos" },
+      { "label": "Servicios", "href": "/servicios" },
+      { "label": "Nosotros", "href": "/nosotros" },
+      { "label": "Blog", "href": "/blog" },
+      { "label": "Contacto", "href": "/contacto" }
+    ],
+    "ctaText": "Cotizá tu proyecto",
+    "ctaHref": "https://wa.me/595981277601?text=Hola%20Pitchy%2C%20quiero%20cotizar%20vidrio%20para%20un%20proyecto"
   },
   "home": {
-    "seo": {
-      "title": "Superspuma — Colchones y Sommiers",
-      "description": "Colchones y sommiers de fabricación propia en Paraguay."
-    },
     "hero": {
-      "headline": "Colchones y Sommiers <span>de Calidad</span>",
-      "subheadline": "Fabricación propia desde 1976. Envío a todo Paraguay.",
-      "ctaPrimaryText": "Ver productos",
-      "ctaPrimaryHref": "/tienda",
+      "headline": "Vidrio Blindex para Proyectos de Construcción en Paraguay",
+      "subheadline": "Stock local, entrega inmediata, asistencia técnica. Proveemos vidrio templado, laminado y muro cortina para edificios de hasta 250 metros.",
+      "ctaPrimaryText": "Solicitar cotización",
+      "ctaPrimaryHref": "/cotizar",
       "ctaSecondaryText": "WhatsApp",
-      "ctaSecondaryHref": "https://wa.me/595974202025"
-    },
-    "stats": {
-      "title": "Superspuma en Números",
-      "items": {
-        "items": [
-          {
-            "value": "+49",
-            "label": "Años en el mercado",
-            "icon": "Award"
-          },
-          {
-            "value": "+200",
-            "label": "Colaboradores",
-            "icon": "Users"
-          },
-          {
-            "value": "19",
-            "label": "Modelos en catálogo",
-            "icon": "Package"
-          },
-          {
-            "value": "13",
-            "label": "Puntos en el país",
-            "icon": "MapPin"
-          }
-        ]
-      }
+      "ctaSecondaryHref": "https://wa.me/595981277601"
     },
     "features": {
-      "title": "¿Por qué elegir Superspuma?",
-      "items": {
-        "title": "Nuestra historia",
-        "items": [
-          {
-            "title": "49 años fabricando",
-            "description": "Fundada el 24 de julio de 1976 en Villeta, Paraguay."
-          },
-          {
-            "title": "200+ colaboradores",
-            "description": "Equipo paraguayo comprometido con la calidad."
-          },
-          {
-            "title": "550 unidades/día",
-            "description": "Capacidad de producción diaria en nuestra planta de 7 hectáreas."
-          },
-          {
-            "title": "Flota propia",
-            "description": "40 vehículos para entregas en todo el país."
-          },
-          {
-            "title": "Filial Argentina",
-            "description": "Presencia en Resistencia, Chaco desde hace 21 años. 4.000 sommiers/mes."
-          },
-          {
-            "title": "2.300+ clientes mayoristas",
-            "description": "Distribución en Bristol, Electroban, Misionera, Artaza y más."
-          }
-        ]
-      }
+      "title": "¿Por qué elegirnos?",
+      "items": [
+        {
+          "title": "Stock Local",
+          "description": "Tenemos vidrio en stock. Entregas en 24–48 horas, no semanas de espera como los importadores."
+        },
+        {
+          "title": "Calidad Certificada",
+          "description": "Trabajamos con vidrio Blindex de primera calidad, con certificaciones IRAM e ISO."
+        },
+        {
+          "title": "Asistencia Técnica",
+          "description": "Te asesoramos en la elección del vidrio adecuado para tu proyecto, desde pequeñas obras hasta rascacielos."
+        },
+        {
+          "title": "Facilidades de Pago",
+          "description": "Ofrecemos crédito a 30 y 60 días para empresas constructoras y contratistas."
+        }
+      ]
     },
     "finalCta": {
-      "title": "¿Listo para descansar mejor?",
-      "description": "Consultá por nuestros colchones y sommiers.",
-      "buttonText": "WhatsApp",
-      "buttonLink": "https://wa.me/595974202025",
-      "secondaryText": "Ver productos",
-      "secondaryLink": "/tienda"
+      "title": "Cotizá tu proyecto hoy",
+      "description": "Contanos qué necesitás y te enviamos un presupuesto en el día.",
+      "secondaryText": "Escribinos por WhatsApp",
+      "secondaryLink": "https://wa.me/595981277601"
     }
   },
   "products": [
     {
-      "slug": "titanium",
-      "name": "Titanium",
-      "line": "Premium",
-      "category": "Resorte",
-      "price": "Gs. 1.800.000",
-      "priceFrom": "2 plazas 140x190",
-      "image": "/superspuma/images/products/titanium.png",
-      "description": "Premium con Euro Pillow Top y resortes Bonell reforzados.",
-      "sizes": [
-        "2 plazas 140x190: Gs. 1.800.000",
-        "Queen 160x200: Gs. 2.200.000",
-        "King 180x200: Gs. 2.700.000",
-        "Super King 200x200: Gs. 3.200.000"
+      "id": "vidrio-templado",
+      "name": "Vidrio Templado",
+      "description": "Vidrio de seguridad termoendurecido, 4 a 5 veces más resistente que el vidrio común. Ideal para fachadas, barandas, puertas y mamparas.",
+      "features": [
+        "Resistencia 4–5x superior al vidrio común",
+        "Disponible de 4mm a 19mm de espesor",
+        "Tamaño máximo: 2400 x 5000 mm",
+        "Cumple normas IRAM e ISO",
+        "Bordes pulidos y biselados"
       ],
-      "firmness": "Firme",
-      "warranty": "5 años",
-      "weight": "Hasta 120 kg por lado",
-      "badges": [
-        "Pillow Top",
-        "Antiácaros",
-        "Más vendido"
-      ]
+      "applications": ["Fachadas de edificios", "Barandas y balcones", "Puertas de vidrio", "Mamparas de baño", "Divisiones de oficinas"],
+      "cta": "Solicitar cotización de vidrio templado"
     },
     {
-      "slug": "imperial",
-      "name": "Imperial",
-      "line": "Alta Gama",
-      "category": "Resorte",
-      "price": "Gs. 2.230.000",
-      "priceFrom": "2 plazas 140x190",
-      "image": "/superspuma/images/products/imperial.png",
-      "description": "Resortes Bonell con Pillow Top para descanso regenerador.",
-      "sizes": [
-        "2 plazas 140x190: Gs. 2.230.000",
-        "Queen 160x200: Gs. 2.502.000",
-        "King 180x200: Gs. 3.030.000",
-        "Super King 200x200: Gs. 3.652.000"
+      "id": "vidrio-laminado",
+      "name": "Vidrio Laminado",
+      "description": "Vidrio de seguridad compuesto por dos o más láminas unidas con PVB. Si se rompe, los fragmentos quedan adheridos al film.",
+      "features": [
+        "Seguridad: los fragmentos no se desprenden",
+        "Reducción acústica de hasta 40 dB",
+        "Protección UV del 99%",
+        "Colores: transparente, satinado, bronce, gris, verde, azul",
+        "Configuraciones: 3+3 a 10+10 mm"
       ],
-      "firmness": "Medio-Firme",
-      "warranty": "3 años",
-      "weight": "Hasta 100 kg por lado",
-      "colors": [
-        "Gris",
-        "Beige",
-        "Bordó"
+      "applications": ["Fachadas y muro cortina", "Claraboyas y techos", "Barandas de seguridad", "Pisos de vidrio", "Locales comerciales"],
+      "cta": "Solicitar cotización de vidrio laminado"
+    },
+    {
+      "id": "dvh",
+      "name": "DVH — Doble Vidriado Hermético",
+      "description": "Sistema de doble vidrio con cámara de aire o gas argón. Aislamiento térmico y acústico superior para edificios corporativos y viviendas.",
+      "features": [
+        "Aislamiento térmico: U-value desde 1.4 W/m²K",
+        "Reducción acústica de hasta 45 dB",
+        "Disponible con Low-E para control solar",
+        "Cámara de aire o argón",
+        "Configuraciones personalizadas"
       ],
-      "badges": [
-        "Pillow Top",
-        "Antiácaros"
-      ]
+      "applications": ["Edificios corporativos", "Hoteles", "Viviendas de alta gama", "Proyectos de eficiencia energética"],
+      "cta": "Solicitar cotización de DVH"
     },
     {
-      "slug": "harmony",
-      "name": "Harmony",
-      "line": "Confort",
-      "category": "Resorte",
-      "price": "Gs. 1.274.000",
-      "priceFrom": "2 plazas 140x190",
-      "image": "/superspuma/images/products/harmony.jpg",
-      "description": "Equilibrio ideal entre soporte y confort con Euro-Top — el más consultado.",
-      "sizes": [
-        "2 plazas 140x190: Gs. 1.274.000",
-        "Queen 160x200: Gs. 1.480.000",
-        "King 180x200: Gs. 1.890.000",
-        "Super King 200x200: Gs. 2.250.000"
+      "id": "muro-cortina",
+      "name": "Muro Cortina",
+      "description": "Sistema de fachada vidriada para edificios de altura. Diseñamos y proveemos sistemas stick y unitized para proyectos de gran escala.",
+      "features": [
+        "Sistemas stick y unitized",
+        "Perfiles de aluminio con ruptura de puente térmico",
+        "Vidrio templado + laminado de alta resistencia",
+        "Ingeniería a medida para cada proyecto",
+        "Cálculo estructural incluido"
       ],
-      "firmness": "Medio",
-      "warranty": "3 años",
-      "weight": "Hasta 90 kg por lado",
-      "badges": [
-        "Euro-Top",
-        "Antiácaros",
-        "Recomendado"
-      ]
+      "applications": ["Edificios corporativos", "Torres residenciales", "Centros comerciales", "Hoteles"],
+      "cta": "Solicitar cotización de muro cortina"
     },
     {
-      "slug": "serrat",
-      "name": "Serrat",
-      "line": "Confort",
-      "category": "Resorte",
-      "price": "Gs. 1.150.000",
-      "priceFrom": "2 plazas 140x190",
-      "image": "/superspuma/images/products/serrat.png",
-      "description": "Resorte con superficie suave, firmeza media.",
-      "firmness": "Medio",
-      "warranty": "3 años"
-    },
-    {
-      "slug": "delta-soft",
-      "name": "Delta Soft",
-      "line": "Confort",
-      "category": "Resorte",
-      "price": "Gs. 1.050.000",
-      "image": "/superspuma/images/products/delta-soft.jpg",
-      "description": "Tacto mullido con soporte de resorte.",
-      "firmness": "Suave",
-      "warranty": "3 años"
-    },
-    {
-      "slug": "essential-top",
-      "name": "Essential Top",
-      "line": "Esencial",
-      "category": "Resorte",
-      "price": "Gs. 890.000",
-      "image": "/superspuma/images/products/essential-top.jpg",
-      "description": "Resorte con Pillow Top — entrada a línea Esencial.",
-      "firmness": "Medio",
-      "warranty": "2 años"
-    },
-    {
-      "slug": "renovate",
-      "name": "Renovate",
-      "line": "Esencial",
-      "category": "Resorte",
-      "price": "Gs. 780.000",
-      "image": "/superspuma/images/products/renovate.jpg",
-      "description": "Reemplazo económico para tu viejo colchón.",
-      "firmness": "Medio-Firme",
-      "warranty": "2 años"
-    },
-    {
-      "slug": "impulse",
-      "name": "Impulse",
-      "line": "Infantil",
-      "category": "Resorte",
-      "price": "Gs. 780.000",
-      "image": "/superspuma/images/products/impulse.jpg",
-      "description": "Resorte premium para niños, reversible, antiácaros.",
-      "sizes": [
-        "1 plaza 80x190: Gs. 650.000",
-        "1+ plaza 100x190: Gs. 780.000"
+      "id": "low-e",
+      "name": "Vidrio Low-E",
+      "description": "Vidrio de baja emisividad con capa microscópica que refleja el calor. Reduce la transferencia térmica manteniendo la transparencia.",
+      "features": [
+        "Reduce la ganancia de calor solar hasta 70%",
+        "Ahorro energético en climatización",
+        "Mantiene la luminosidad natural",
+        "Ideal para el clima cálido de Paraguay",
+        "Múltiples colores y reflectividades"
       ],
-      "firmness": "Medio",
-      "warranty": "2 años",
-      "weight": "Hasta 70 kg",
-      "badges": [
-        "Niños",
-        "Antiácaros"
-      ]
+      "applications": ["Fachadas con control solar", "Edificios sustentables", "Proyectos LEED", "Grandes superficies vidriadas"],
+      "cta": "Solicitar cotización de vidrio Low-E"
     },
     {
-      "slug": "pop-kids",
-      "name": "Pop Kids",
-      "line": "Infantil",
-      "category": "Resorte",
-      "price": "Gs. 649.000",
-      "image": "/superspuma/images/products/pop-kids.jpeg",
-      "description": "Línea económica infantil con diseños divertidos.",
-      "sizes": [
-        "1+ plaza 100x190: Gs. 649.000",
-        "1+ plaza + sommier: Gs. 1.069.000",
-        "1+ plaza + sommier + cabecera: Gs. 1.298.000"
+      "id": "blindex",
+      "name": "Mamparas de Baño Blindex",
+      "description": "Mamparas en vidrio templado de 8mm con perfilería de aluminio. Variedad de colores y acabados. Medidas estándar y a medida.",
+      "features": [
+        "Vidrio templado de 8mm",
+        "Perfiles: cromo, satinado, negro, dorado",
+        "Sistema de fácil limpieza",
+        "Medidas estándar y a medida",
+        "Instalación profesional incluida"
       ],
-      "firmness": "Medio",
-      "warranty": "2 años",
-      "colors": [
-        "Rosa (nena)",
-        "Celeste (nene)"
+      "applications": ["Baños residenciales", "Baños de hoteles", "Baños corporativos"],
+      "cta": "Solicitar cotización de Blindex"
+    },
+    {
+      "id": "espejos",
+      "name": "Espejos",
+      "description": "Espejos de alta calidad en medidas estándar y personalizadas. Con y sin marco, biselados o rectos.",
+      "features": [
+        "Vidrio float de primera calidad",
+        "Múltiples tamaños disponibles",
+        "Biselado decorativo",
+        "Con y sin marco",
+        "Fijaciones incluidas"
       ],
-      "badges": [
-        "Niños",
-        "Económico"
-      ]
+      "applications": ["Hogares", "Gimnasios", "Locales comerciales", "Hoteles"],
+      "cta": "Solicitar cotización de espejos"
     },
     {
-      "slug": "pop-plus-pillow",
-      "name": "Pop Plus Pillow",
-      "line": "Confort",
-      "category": "Resorte",
-      "price": "Gs. 850.000",
-      "image": "/superspuma/images/products/pop-plus-pillow.png",
-      "description": "Pop reforzado con Pillow Top.",
-      "firmness": "Medio-Firme",
-      "warranty": "2 años",
-      "weight": "Hasta 90 kg"
-    },
-    {
-      "slug": "pop-teen",
-      "name": "Pop Teen",
-      "line": "Juvenil",
-      "category": "Resorte",
-      "price": "Gs. 780.000",
-      "image": "/superspuma/images/products/pop-kids.jpeg",
-      "description": "Pop juvenil — precio accesible.",
-      "firmness": "Medio",
-      "warranty": "2 años",
-      "weight": "Hasta 80 kg"
-    },
-    {
-      "slug": "superteen",
-      "name": "Superteen",
-      "line": "Juvenil",
-      "category": "Resorte",
-      "price": "Gs. 980.000",
-      "description": "Línea premium juvenil.",
-      "firmness": "Medio-Firme",
-      "warranty": "3 años"
-    },
-    {
-      "slug": "ortopedico",
-      "name": "Ortopédico",
-      "line": "Premium",
-      "category": "Espuma",
-      "price": "Gs. 1.290.000",
-      "priceFrom": "1+ plaza 120x190",
-      "image": "/superspuma/images/products/titanium.png",
-      "description": "Firmeza máxima — hasta 140 kg, 6 años de garantía.",
-      "sizes": [
-        "1+ plaza 120x190: Gs. 1.290.000",
-        "2 plazas 140x190: Gs. 1.450.000",
-        "Queen 160x200: Gs. 1.750.000",
-        "King 180x200: Gs. 2.050.000"
+      "id": "reparaciones",
+      "name": "Reparaciones y Reemplazos",
+      "description": "Servicio rápido de reparación y reemplazo de vidrios rotos en edificios comerciales y residenciales.",
+      "features": [
+        "Respuesta en 24 horas",
+        "Stock de medidas comunes",
+        "Corte a medida in situ",
+        "Trabajamos con compañías de seguros",
+        "Garantía de 1 año"
       ],
-      "firmness": "Extra firme",
-      "warranty": "6 años",
-      "weight": "Hasta 140 kg por lado",
-      "badges": [
-        "140 kg",
-        "6 años garantía",
-        "Ortopédico"
-      ]
-    },
-    {
-      "slug": "duo-confort",
-      "name": "Duo Confort",
-      "line": "Alta Gama",
-      "category": "Espuma",
-      "price": "Gs. 980.000",
-      "priceFrom": "2 plazas 140x190",
-      "image": "/superspuma/images/products/harmony.jpg",
-      "description": "Viscoelástica adaptable — alivio de puntos de presión.",
-      "sizes": [
-        "2 plazas 140x190: Gs. 980.000",
-        "Queen 160x200: Gs. 1.250.000",
-        "King 180x200: Gs. 1.580.000"
-      ],
-      "firmness": "Adaptable",
-      "warranty": "3 años",
-      "weight": "Hasta 110 kg por lado",
-      "badges": [
-        "Memory Foam",
-        "Adaptable"
-      ]
-    },
-    {
-      "slug": "serena",
-      "name": "Serena",
-      "line": "Confort",
-      "category": "Espuma",
-      "price": "Gs. 850.000",
-      "description": "Espuma de alta densidad con buen confort.",
-      "firmness": "Medio-Firme",
-      "warranty": "3 años"
-    },
-    {
-      "slug": "golden",
-      "name": "Golden",
-      "line": "Confort",
-      "category": "Espuma",
-      "price": "Gs. 696.000",
-      "priceFrom": "1+ plaza 100x190",
-      "image": "/superspuma/images/products/serrat.png",
-      "description": "Espuma reversible con Pillow Top.",
-      "sizes": [
-        "1+ plaza 100x190: Gs. 696.000",
-        "2 plazas 140x190: Gs. 890.000",
-        "Queen 160x200: Gs. 1.050.000"
-      ],
-      "firmness": "Medio",
-      "warranty": "3 años",
-      "badges": [
-        "Reversible"
-      ]
-    },
-    {
-      "slug": "luna-soft",
-      "name": "Luna Soft",
-      "line": "Esencial",
-      "category": "Espuma",
-      "price": "Gs. 500.000",
-      "priceFrom": "1 plaza 80x190",
-      "image": "/superspuma/images/products/serrat.png",
-      "description": "Espuma económica — suave y liviana.",
-      "sizes": [
-        "1 plaza 80x190: Gs. 500.000",
-        "1+ plaza 90x190: Gs. 560.000",
-        "2 plazas 140x190: Gs. 640.000",
-        "Queen 160x200: Gs. 820.000"
-      ],
-      "firmness": "Suave",
-      "warranty": "2 años",
-      "weight": "Hasta 60 kg",
-      "badges": [
-        "Económico"
-      ]
-    },
-    {
-      "slug": "super-kids",
-      "name": "Super Kids",
-      "line": "Infantil",
-      "category": "Espuma",
-      "price": "Gs. 420.000",
-      "description": "Espuma infantil liviana.",
-      "sizes": [
-        "Cuna 80x140: Gs. 420.000",
-        "1 plaza 80x190: Gs. 520.000"
-      ],
-      "firmness": "Suave",
-      "warranty": "2 años",
-      "weight": "Hasta 50 kg",
-      "badges": [
-        "Niños"
-      ]
-    },
-    {
-      "slug": "base-box-baul",
-      "name": "Base Box Baúl",
-      "line": "Accesorio",
-      "category": "Accesorios",
-      "price": "Gs. 890.000",
-      "image": "/superspuma/images/products/renovate.jpg",
-      "description": "Sommier con espacio de guardado bajo la tapa.",
-      "sizes": [
-        "2 plazas 140x190: Gs. 890.000",
-        "Queen 160x200: Gs. 1.150.000",
-        "King 180x200: Gs. 1.490.000"
-      ]
-    },
-    {
-      "slug": "protector-colchon",
-      "name": "Protector Impermeable",
-      "line": "Accesorio",
-      "category": "Accesorios",
-      "price": "Gs. 120.000",
-      "description": "Impermeable y transpirable. Protege tu colchón sin cambiar la sensación.",
-      "badges": [
-        "Impermeable"
-      ]
-    },
-    {
-      "slug": "cubre-colchon",
-      "name": "Cubre Colchón",
-      "line": "Accesorio",
-      "category": "Accesorios",
-      "price": "Gs. 95.000",
-      "description": "Protección acolchada para tu colchón.",
-      "badges": [
-        "Accesorio"
-      ]
-    },
-    {
-      "slug": "almohada-superspuma",
-      "name": "Almohada Superspuma",
-      "line": "Accesorio",
-      "category": "Accesorios",
-      "price": "Gs. 65.000",
-      "description": "Almohada de fibra o espuma. Varias firmezas.",
-      "badges": [
-        "Accesorio"
-      ]
+      "applications": ["Vidrios rotos de fachada", "Puertas y ventanas", "Barandas y balcones", "Mamparas"],
+      "cta": "Solicitar reparación urgente"
     }
   ],
-  "categories": [],
-  "envio": {
-    "title": "Envío a Todo Paraguay",
-    "subtitle": "Entregas rápidas y seguras",
-    "points": [
-      {
-        "icon": "🚚",
-        "title": "Envío Nacional",
-        "description": "Hacemos envíos a todo Paraguay."
-      },
-      {
-        "icon": "⏰",
-        "title": "Entrega Rápida",
-        "description": "Recibí tu pedido en 24-72hs hábiles."
-      },
-      {
-        "icon": "💳",
-        "title": "Pago Seguro",
-        "description": "Aceptamos transferencia, efectivo y tarjeta."
-      }
-    ],
-    "cta": "Consultar por WhatsApp"
-  },
-  "faq": [
-    {
-      "question": "¿Qué medidas de colchones fabrican?",
-      "answer": "Fabricamos todas las medidas estándar: 1 plaza (80x190), 1 plaza y media (100x190), 2 plazas (140x190), Queen (160x200), King (180x200), Super King (200x200). Medidas especiales a pedido (5-10 días hábiles)."
-    },
-    {
-      "question": "¿Cómo elijo la firmeza correcta?",
-      "answer": "Menos de 70kg: media. 70-100kg: media-firme. Más de 100kg o columna: firme. De costado: adaptable (Duo Confort)."
-    },
-    {
-      "question": "¿Resorte o espuma?",
-      "answer": "Resorte: soporte, ventilación, durabilidad. Espuma: económico o viscoelástica. Depende de preferencia y peso."
-    },
-    {
-      "question": "¿Cuánto dura la garantía?",
-      "answer": "Esencial: 2 años. Confort: 3 años. Premium (Titanium): 5 años. Ortopédico: 6 años."
-    },
-    {
-      "question": "¿Hacen envíos a todo el país?",
-      "answer": "Sí. Asunción/Metropolitana: 24-72h. Gratis desde Gs. 1.000.000. Interior: 3-7 días con costo según zona."
-    },
-    {
-      "question": "¿Se llevan mi colchón viejo?",
-      "answer": "Sí, sin costo el mismo día de entrega en compras de colchones nuevos."
-    },
-    {
-      "question": "¿En cuántas cuotas puedo pagar?",
-      "answer": "Hasta 18 cuotas sin interés. Aceptamos todas las tarjetas y transferencia bancaria."
-    },
-    {
-      "question": "¿Cómo cuido mi colchón?",
-      "answer": "Rotar cada 3 meses, usar protector impermeable, ventilar la habitación. Cambiar cada 7-10 años."
-    },
-    {
-      "question": "¿Dónde están las tiendas?",
-      "answer": "7 tiendas en Asunción y Central + 6 centros logísticos en el interior. Ver página Tiendas."
-    },
-    {
-      "question": "¿Puedo probar el colchón en tienda?",
-      "answer": "Sí, tenemos exhibición de los más vendidos. Te recomendamos acostarte 10 minutos."
-    },
-    {
-      "question": "¿Tienen servicio técnico?",
-      "answer": "Sí. Línea 0981 111 222. Evaluación y reparación dentro del período de garantía."
-    }
+  "categories": [
+    { "id": "vidrio-templado", "name": "Vidrio Templado", "icon": "🔷", "description": "Vidrio de seguridad para construcciones" },
+    { "id": "vidrio-laminado", "name": "Vidrio Laminado", "icon": "🪟", "description": "Vidrio de seguridad laminado PVB" },
+    { "id": "dvh", "name": "DVH", "icon": "🪞", "description": "Doble vidriado hermético" },
+    { "id": "muro-cortina", "name": "Muro Cortina", "icon": "🏢", "description": "Sistemas de fachada vidriada" },
+    { "id": "low-e", "name": "Low-E", "icon": "☀️", "description": "Vidrio de baja emisividad" },
+    { "id": "blindex", "name": "Blindex", "icon": "🚿", "description": "Mamparas de baño" },
+    { "id": "espejos", "name": "Espejos", "icon": "🪞", "description": "Espejos medidas especiales" },
+    { "id": "reparaciones", "name": "Reparaciones", "icon": "🔧", "description": "Reparación y reemplazo" }
   ],
-  "testimonials": [],
+  "testimonials": [
+    { "name": "Constructora ABC", "text": "Excelente servicio y calidad. Los vidrios llegaron antes de lo previsto.", "rating": 5 },
+    { "name": "Arq. Martínez", "text": "Pitchy nos asesoró en la elección del vidrio adecuado para nuestra fachada. Muy recomendados.", "rating": 5 }
+  ],
   "contacto": {
-    "title": "Contacto",
-    "subtitle": "Respondemos rápido por WhatsApp.",
-    "whatsapp": "595974202025",
-    "whatsappMessage": "¡Hola! Quiero información sobre colchones",
-    "city": "Villeta, Paraguay",
-    "responseTime": "Respuesta en menos de 1 hora"
+    "info": {
+      "phone": "+595 981 277 601",
+      "whatsapp": "595981277601",
+      "email": "pitchy@example.com",
+      "address": "Asunción, Paraguay"
+    },
+    "hours": "Lunes a viernes: 07:30 a 17:30 | Sábados: 07:30 a 12:00"
+  },
+  "whatsapp": {
+    "defaultMessage": "Hola Pitchy, quiero consultar sobre vidrio para un proyecto."
   },
   "nosotros": {
-    "title": "Sobre Superspuma",
-    "subtitle": "Colchones y Sommiers en Paraguay desde 1976",
-    "story": [
-      "Superspuma nació en 1976 con la misión de ofrecer colchones y sommiers de la más alta calidad en Paraguay.",
-      "Desde entonces, nos hemos dedicado a la fabricación propia con materiales seleccionados, garantizando el mejor descanso para nuestros clientes."
+    "title": "Sobre Pitchy Blindex",
+    "subtitle": "Expertos en vidrio para la construcción en Paraguay",
+    "mission": "Proveer vidrio de la más alta calidad con entrega rápida y asesoramiento técnico personalizado para proyectos de todos los tamaños.",
+    "stats": [
+      { "number": "10+", "label": "Años en el mercado" },
+      { "number": "50,000+", "label": "M² de vidrio suministrados" },
+      { "number": "200+", "label": "Proyectos completados" },
+      { "number": "95%", "label": "Clientes satisfechos" }
     ],
+    "story": "Con amplia trayectoria en el rubro del vidrio para la construcción, Pitchy Blindex nace de la necesidad de proveer vidrio de calidad con stock local en Paraguay. Trabajamos directamente con Blindex, la marca líder en Latinoamérica, para ofrecer productos certificados con los mejores estándares de calidad. Nuestro equipo asesora a arquitectos, ingenieros y constructores en la selección del vidrio adecuado para cada proyecto, desde pequeñas reformas hasta rascacielos de más de 40 pisos.",
     "values": [
-      {
-        "title": "Calidad",
-        "description": "Materiales de primera y fabricación propia."
-      },
-      {
-        "title": "Tradición",
-        "description": "Casi 50 años de experiencia en Paraguay."
-      }
+      { "title": "Calidad", "description": "Solo trabajamos con vidrio certificado Blindex, con garantía de fábrica." },
+      { "title": "Stock local", "description": "Mantenemos inventario permanente para entregas rápidas." },
+      { "title": "Asesoramiento", "description": "Te ayudamos a elegir el producto correcto para tu proyecto." },
+      { "title": "Confianza", "description": "Relaciones de largo plazo con constructoras y arquitectos." }
     ]
   },
-  "promociones": {
-    "title": "Promociones",
-    "subtitle": "Consultá por nuestras ofertas",
-    "promotions": []
-  },
-  "blog": {
-    "title": "Blog",
-    "subtitle": "",
-    "categories": [],
-    "posts": []
-  },
+  "servicios": [
+    {
+      "id": "asesoramiento",
+      "title": "Asesoramiento Técnico",
+      "description": "Te ayudamos a seleccionar el vidrio adecuado según las necesidades de tu proyecto: resistencia, aislamiento, control solar y presupuesto.",
+      "icon": "📋"
+    },
+    {
+      "id": "provision",
+      "title": "Provisión de Vidrio",
+      "description": "Suministramos vidrio templado, laminado, DVH, muro cortina y Low-E con stock local. Entregas en 24–48 horas.",
+      "icon": "📦"
+    },
+    {
+      "id": "instalacion",
+      "title": "Instalación Profesional",
+      "description": "Coordinamos la instalación con nuestro equipo de profesionales experimentados en proyectos de todo tamaño.",
+      "icon": "🔨"
+    },
+    {
+      "id": "medicion",
+      "title": "Medición y Presupuesto",
+      "description": "Realizamos la medición in situ y te entregamos un presupuesto detallado sin compromiso.",
+      "icon": "📏"
+    },
+    {
+      "id": "postventa",
+      "title": "Servicio Post-Venta",
+      "description": "Garantía en todos nuestros productos. Servicio de reparación y reemplazo rápido.",
+      "icon": "🛡️"
+    }
+  ],
+  "faq": [
+    { "question": "¿Cuánto tiempo tarda la entrega?", "answer": "Si el producto está en stock, la entrega es en 24–48 horas. Para pedidos especiales, consultar plazo." },
+    { "question": "¿Hacen instalación?", "answer": "Sí, coordinamos instalación profesional con nuestro equipo especializado." },
+    { "question": "¿Trabajan con constructoras?", "answer": "Sí, trabajamos con constructoras y contratistas. Ofrecemos crédito a 30 y 60 días." },
+    { "question": "¿Qué certificaciones tiene el vidrio?", "answer": "Trabajamos con vidrio Blindex certificado bajo normas IRAM e ISO." },
+    { "question": "¿Hacen presupuestos sin compromiso?", "answer": "Sí, realizamos la medición y el presupuesto sin cargo." }
+  ],
+  "blog": [
+    {
+      "slug": "muro-cortina-paraguay-guia",
+      "title": "Muro Cortina en Paraguay: Guía Completa para Proyectos de Altura",
+      "excerpt": "Todo lo que necesitás saber sobre sistemas de muro cortina para edificios en Paraguay: tipos, costos, instalación y mantenimiento.",
+      "date": "2026-05-06",
+      "author": "Pitchy",
+      "category": "Técnico",
+      "content": "El muro cortina es un sistema de fachada vidriada no estructural que se utiliza en edificios de altura. A diferencia de las ventanas tradicionales, el muro cortina se ancla a la estructura del edificio piso por piso, permitiendo fachadas continuas de vidrio que le dan a los edificios su característico aspecto moderno.\n\n## Tipos de Muro Cortina\n\n### Sistema Stick\nEl sistema más común en Paraguay. Los perfiles de aluminio y los paneles de vidrio se ensamblan pieza por pieza en la obra. Ventajas: menor costo, fácil transporte, ideal para proyectos medianos.\n\n### Sistema Unitized\nLos paneles llegan prefabricados de fábrica y solo se cuelgan en la estructura. Ventajas: instalación más rápida, mejor control de calidad, ideal para grandes torres.\n\n## Vidrios Recomendados para Muro Cortina\n\nPara fachadas vidriadas en Paraguay recomendamos:\n- **Vidrio laminado**: seguridad ante impactos y roturas\n- **DVH con Low-E**: control térmico para el clima cálido paraguayo\n- **Vidrio templado**: resistencia estructural\n\n## Mantenimiento\n\nEl muro cortina requiere mantenimiento periódico: limpieza de vidrios, revisión de sellos y juntas, y verificación de anclajes. Con buen mantenimiento, la vida útil supera los 30 años.\n\n¿Estás planificando un proyecto con muro cortina? Contactanos para recibir asesoramiento técnico y presupuesto personalizado."
+    },
+    {
+      "slug": "vidrio-templado-vs-laminado",
+      "title": "Vidrio Templado vs Laminado: ¿Cuál Elegir para tu Proyecto?",
+      "excerpt": "Comparativa completa entre vidrio templado y laminado: diferencias, aplicaciones, resistencia y cuándo usar cada uno.",
+      "date": "2026-05-06",
+      "author": "Pitchy",
+      "category": "Técnico",
+      "content": "Una de las preguntas más frecuentes en la construcción es si usar vidrio templado o laminado. Ambos son vidrios de seguridad, pero funcionan de manera diferente.\n\n## Vidrio Templado\n\nEl vidrio templado pasa por un tratamiento térmico que lo hace 4–5 veces más resistente que el vidrio común. Cuando se rompe, se fragmenta en pequeños trozos no cortantes.\n\n**Usos ideales:**\n- Fachadas y barandas\n- Puertas de vidrio\n- Mamparas de baño\n- Divisiones de oficinas\n\n## Vidrio Laminado\n\nEl vidrio laminado está compuesto por dos o más láminas de vidrio unidas por una capa de PVB (butiral de polivinilo). Si se rompe, los fragmentos quedan adheridos al film.\n\n**Usos ideales:**\n- Fachadas y muro cortina\n- Claraboyas y techos de vidrio\n- Pisos de vidrio\n- Locales comerciales (seguridad antirrobo)\n\n## ¿Cuál Elegir?\n\n| Aplicación | Recomendación |\n|-----------|--------------|\n| Fachada de edificio | Laminado (seguridad) + Templado (resistencia) |\n| Baranda de balcón | Templado (resistencia al impacto) |\n| Techo vidriado | Laminado (los fragmentos no caen) |\n| Puerta de vidrio | Templado (resistencia) |\n| Muro cortina | Laminado + DVH |\n\nEn muchos proyectos se usan ambos: el laminado por seguridad y el templado por resistencia. Consultanos y te asesoramos sin compromiso."
+    },
+    {
+      "slug": "precio-vidrio-fachadas-paraguay",
+      "title": "Precio del Vidrio para Fachadas en Paraguay [2026]",
+      "excerpt": "Guía de precios actualizada para vidrio templado, laminado y muro cortina en Paraguay. Factores que influyen en el costo y cómo presupuestar.",
+      "date": "2026-05-06",
+      "author": "Pitchy",
+      "category": "Comercial",
+      "content": "El precio del vidrio para fachadas en Paraguay varía según el tipo de vidrio, el espesor, el tratamiento y la cantidad. Esta guía te ayudará a entender los factores que influyen en el costo.\n\n## Factores que Afectan el Precio\n\n1. **Tipo de vidrio**: templado, laminado, DVH, Low-E (cada uno tiene un proceso de fabricación diferente)\n2. **Espesor**: a mayor espesor, mayor costo\n3. **Cantidad**: proyectos grandes tienen mejor precio por m²\n4. **Tratamientos adicionales**: biselado, perforaciones, cortes especiales\n5. **Instalación**: el costo de instalación depende de la altura y complejidad\n\n## Rango de Precios Referenciales\n\n| Producto | Precio Aprox. por m² |\n|----------|---------------------|\n| Vidrio Templado 6mm | $XX – $XX |\n| Vidrio Templado 10mm | $XX – $XX |\n| Vidrio Laminado 4+4 | $XX – $XX |\n| DVH 4+12+4 | $XX – $XX |\n| DVH con Low-E | $XX – $XX |\n| Muro Cortina (completo) | $XX – $XX |\n\n*Los precios son referenciales y pueden variar según el proyecto. Solicitá un presupuesto personalizado.*\n\n## Cómo Ahorrar en tu Proyecto\n\n- **Comprá por volumen**: proyectos grandes tienen mejor precio\n- **Estandarizá medidas**: evitar cortes especiales reduce el desperdicio\n- **Elegí el vidrio adecuado**: no uses vidrio más grueso del necesario\n- **Consultá con anticipación**: los precios pueden cambiar según la demanda\n\nSolicitá tu presupuesto sin compromiso. Te enviamos una cotización detallada en el día."
+    }
+  ],
   "footer": {
-    "description": "Colchones y sommiers de fabricación propia desde 1976.",
+    "description": "Proveemos vidrio templado, laminado, DVH y muro cortina para proyectos de construcción en todo Paraguay.",
     "columns": [
       {
-        "title": "Enlaces",
+        "title": "Productos",
         "links": [
-          {
-            "label": "Inicio",
-            "href": ""
-          },
-          {
-            "label": "Tienda",
-            "href": "/tienda"
-          },
-          {
-            "label": "FAQ",
-            "href": "/faq"
-          },
-          {
-            "label": "Contacto",
-            "href": "/contacto"
-          }
+          { "label": "Vidrio Templado", "href": "/productos#vidrio-templado" },
+          { "label": "Vidrio Laminado", "href": "/productos#vidrio-laminado" },
+          { "label": "DVH", "href": "/productos#dvh" },
+          { "label": "Muro Cortina", "href": "/productos#muro-cortina" },
+          { "label": "Blindex", "href": "/productos#blindex" }
         ]
       },
       {
-        "title": "Ayuda",
+        "title": "Empresa",
         "links": [
-          {
-            "label": "Envío",
-            "href": "/envio"
-          },
-          {
-            "label": "Privacidad",
-            "href": "/privacidad"
-          },
-          {
-            "label": "Términos",
-            "href": "/terminos"
-          }
+          { "label": "Nosotros", "href": "/nosotros" },
+          { "label": "Servicios", "href": "/servicios" },
+          { "label": "Proyectos", "href": "/proyectos" },
+          { "label": "Blog", "href": "/blog" },
+          { "label": "Contacto", "href": "/contacto" }
+        ]
+      },
+      {
+        "title": "Contacto",
+        "links": [
+          { "label": "WhatsApp", "href": "https://wa.me/595981277601" },
+          { "label": "Tel: +595 981 277 601", "href": "tel:+595981277601" },
+          { "label": "Email", "href": "mailto:pitchy@example.com" }
         ]
       }
     ],
-    "social": [],
-    "paymentMethods": [
-      {
-        "name": "Transferencia"
-      },
-      {
-        "name": "Efectivo"
-      },
-      {
-        "name": "Tarjeta"
-      }
+    "paymentMethods": [],
+    "social": [
+      { "name": "WhatsApp", "url": "https://wa.me/595981277601", "icon": "message-circle" }
     ],
-    "copyright": "© 2026 Superspuma. Todos los derechos reservados."
+    "copyright": "© 2026 Pitchy Blindex. Todos los derechos reservados."
   }
 }

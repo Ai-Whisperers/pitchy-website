@@ -10,9 +10,9 @@ const c = content as any
 const inter = Inter({ subsets: ["latin"], display: "swap" })
 
 export const metadata: Metadata = {
-  metadataBase: new URL(c.site?.url || "https://example.com"),
-  title: { default: c.site?.title || "Mi Sitio", template: `%s | ${c.site?.title || "Mi Sitio"}` },
-  description: c.site?.description || "",
+  metadataBase: new URL(c.site?.url || "https://pitchy.paragu-ai.com"),
+  title: { default: c.site?.title || "Pitchy Blindex", template: `%s | ${c.site?.title || "Pitchy Blindex"}` },
+  description: c.site?.description || "Vidrio Blindex para construcción en Paraguay. Templado, laminado, DVH y muro cortina.",
   openGraph: { title: c.site?.title, description: c.site?.description, locale: "es_PY", type: "website" },
 }
 

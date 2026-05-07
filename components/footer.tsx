@@ -34,8 +34,8 @@ export function Footer() {
         <div className="grid gap-10 sm:grid-cols-2 md:grid-cols-4">
           {/* Brand column */}
           <div>
-            <div className="text-xl font-extrabold text-accent mb-3">
-              Fun<span className="text-primary">4</span>Me
+            <div className="text-xl font-extrabold text-[#00A3E0] mb-3">
+              Pitchy <span className="text-[#0F62FE]">Blindex</span>
             </div>
             <p className="text-sm text-white/60 leading-relaxed">{f.description}</p>
           </div>
@@ -84,7 +84,7 @@ export function Footer() {
         )}
 
         <div className="mt-8 text-center text-xs text-white/40">
-          {f.copyright || `© ${new Date().getFullYear()} Fun4Me Store. Todos los derechos reservados.`}
+          {f.copyright || `© ${new Date().getFullYear()} Pitchy Blindex. Todos los derechos reservados.`}
         </div>
       </div>
     </footer>

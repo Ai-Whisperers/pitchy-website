@@ -73,8 +73,8 @@ export function Header() {
 
       <div className="mx-auto flex max-w-7xl items-center justify-between px-4 py-3">
         <div className="flex items-center gap-4">
-          <Link href="/" className="text-2xl font-extrabold text-accent no-underline">
-            Fun<span className="text-primary">4</span>Me
+          <Link href="/" className="text-2xl font-extrabold text-[#00A3E0] no-underline">
+            Pitchy <span className="text-[#0F62FE]">Blindex</span>
           </Link>
         </div>
 
@@ -108,11 +108,8 @@ export function Header() {
           </button>
 
           <a href={c.navigation.ctaHref} target="_blank" rel="noopener noreferrer"
-            className="hidden md:inline-flex items-center gap-1.5 rounded-md bg-primary px-4 py-2 text-sm font-semibold text-primary-foreground hover:bg-primary/90">
-            <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2">
-              <path d="M3 21l1.65-3.8a9 9 0 1 1 3.4 2.9L3 21"/>
-            </svg>
-            {c.navigation.ctaText}
+            className="hidden md:inline-flex items-center gap-1.5 rounded-md bg-[#0F62FE] px-4 py-2 text-sm font-semibold text-white hover:bg-blue-700">
+            📱 {c.navigation.ctaText}
           </a>
 
           <button onClick={() => setMobileOpen(!mobileOpen)}
