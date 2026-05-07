@@ -1,7 +1,9 @@
 import type { Metadata } from "next"
 import "./globals.css"
 import { Inter } from "next/font/google"
-import { CookieConsent } from "@ai-whisperers/seo/cookie-consent"
+import { Header } from "@/components/header"
+import { Footer } from "@/components/footer"
+import { CookieConsent } from "@/components/cookie-consent"
 import { WhatsAppFloat } from "@ai-whisperers/whatsapp/whatsapp-float"
 import { MobileCta } from "@/components/mobile-cta"
 import content from "@/content/es.json"
@@ -23,11 +25,13 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
         <meta name="theme-color" content={c.theme?.color || "#0F62FE"} />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
       </head>
-      <body className="antialiased pb-20 md:pb-0">
-        {children}
+      <body className="antialiased pb-20 md:pb-0 min-h-screen flex flex-col bg-white text-[#1A1A2E]">
+        <Header />
+        <main className="flex-1">{children}</main>
+        <Footer />
         <WhatsAppFloat phone={c.contact?.whatsapp || ""} message={c.whatsapp?.defaultMessage} />
         <MobileCta />
-        <CookieConsent config={c.cookieConsent} />
+        <CookieConsent />
       </body>
     </html>
   )
