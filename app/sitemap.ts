@@ -1,8 +1,8 @@
 import type { MetadataRoute } from "next"
 import content from "@/content/es.json"
 
-const base = "https://fun4me.paragu-ai.com"
-const pages = ["", "/tienda", "/envio", "/faq", "/contacto", "/privacidad", "/terminos", "/nosotros", "/promociones", "/blog"]
+const base = "https://pitchy.paragu-ai.com"
+const pages = ["", "/productos", "/proyectos", "/servicios", "/faq", "/contacto", "/privacidad", "/terminos", "/nosotros", "/blog", "/cotizar"]
 
 export default function sitemap(): MetadataRoute.Sitemap {
   const staticPages = pages.map(path => ({
@@ -12,15 +12,15 @@ export default function sitemap(): MetadataRoute.Sitemap {
     priority: path === "" ? 1 : 0.8,
   }))
 
-  const blogPosts = (content.blog?.posts || []).map((post: any) => ({
+  const blogPosts = ((content as any).blog || []).map((post: any) => ({
     url: `${base}/blog/${post.slug}`,
     lastModified: new Date(post.date || Date.now()),
     changeFrequency: "monthly" as const,
     priority: 0.6,
   }))
 
-  const productPages = (content.products || []).map((p: any) => ({
-    url: `${base}/producto/${p.slug}`,
+  const productPages = ((content as any).products || []).map((p: any) => ({
+    url: `${base}/productos#${p.id}`,
     lastModified: new Date(),
     changeFrequency: "weekly" as const,
     priority: 0.7,

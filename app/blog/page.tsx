@@ -4,7 +4,7 @@ import content from "@/content/es.json"
 
 export default function BlogIndex() {
   const c = content as any
-  const b = c.blog || { posts: [], categories: [], title: "Blog", subtitle: "" }
+  const b = { posts: (c.blog || []), categories: [...new Set((c.blog || []).map((p: any) => p.category).filter(Boolean))], title: "Blog", subtitle: "" }
   return (
     <div className="max-w-5xl mx-auto px-4 py-10">
       <h1 className="text-3xl font-bold text-center mb-2">{b.title}</h1>

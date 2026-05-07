@@ -10,7 +10,7 @@ const FULL_CONTENT: Record<string, string[]> = {}
 export default function BlogPost() {
   const { slug } = useParams()
   const c = content as any
-  const post = c.blog?.posts?.find((p: any) => p.slug === slug)
+  const post = ((c.blog || []) as any[]).find((p: any) => p.slug === slug)
   if (!post) return (
     <div className="py-20 text-center">
       <h2 className="text-2xl font-bold mb-4">Artículo no encontrado</h2>

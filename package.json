@@ -8,34 +8,34 @@
     "start": "next start"
   },
   "dependencies": {
+    "@ai-whisperers/admin": "^0.2.1",
+    "@ai-whisperers/auth": "^0.2.0",
+    "@ai-whisperers/commerce": "^0.2.0",
+    "@ai-whisperers/i18n": "^0.2.0",
+    "@ai-whisperers/seo": "^0.2.0",
+    "@ai-whisperers/theme": "^0.2.0",
+    "@ai-whisperers/ui": "^0.4.0",
+    "@ai-whisperers/whatsapp": "^0.2.0",
+    "@radix-ui/react-dialog": "*",
+    "@radix-ui/react-select": "*",
+    "@radix-ui/react-slot": "*",
+    "@supabase/ssr": "*",
+    "@supabase/supabase-js": "*",
+    "@types/react-dom": "^19.2.3",
+    "class-variance-authority": "*",
     "clsx": "^2.1.1",
     "lucide-react": "^0.510.0",
     "next": "^15.0.0",
     "react": "^19.0.0",
     "react-dom": "^19.0.0",
-    "tailwind-merge": "^3.5.0",
-    "@ai-whisperers/ui": "^0.1.0",
-    "@ai-whisperers/theme": "^0.1.0",
-    "@ai-whisperers/auth": "^0.1.0",
-    "@ai-whisperers/commerce": "^0.1.0",
-    "@ai-whisperers/admin": "^0.1.0",
-    "@ai-whisperers/whatsapp": "^0.1.0",
-    "@ai-whisperers/seo": "^0.1.0",
-    "@ai-whisperers/i18n": "^0.1.0",
-    "@supabase/ssr": "*",
-    "@supabase/supabase-js": "*",
-    "class-variance-authority": "*",
-    "@radix-ui/react-slot": "*",
-    "@radix-ui/react-dialog": "*",
-    "@radix-ui/react-select": "*",
-    "recharts": "*"
+    "recharts": "*",
+    "tailwind-merge": "^3.5.0"
   },
   "devDependencies": {
     "@tailwindcss/postcss": "^4.0.0",
-    "@types/node": "^22.0.0",
+    "@types/node": "^22.19.17",
     "@types/react": "^19.0.0",
     "tailwindcss": "^4.0.0",
-    "typescript": "^5.8.0",
-    "@ai-whisperers/test-vitest": "^0.1.0"
+    "typescript": "^5.8.0"
   }
 }

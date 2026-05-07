@@ -1,7 +1,6 @@
 import type { Metadata } from "next"
 import "./globals.css"
 import { Inter } from "next/font/google"
-import { AnalyticsProvider } from "@ai-whisperers/seo/analytics"
 import { CookieConsent } from "@ai-whisperers/seo/cookie-consent"
 import { WhatsAppFloat } from "@ai-whisperers/whatsapp/whatsapp-float"
 import content from "@/content/es.json"
@@ -20,11 +19,11 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
   return (
     <html lang="es" className={inter.className} suppressHydrationWarning>
       <head>
-        <meta name="theme-color" content={c.theme?.color || "#1B5E20"} />
+        <meta name="theme-color" content={c.theme?.color || "#0F62FE"} />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
       </head>
       <body className="antialiased">
-        <AnalyticsProvider ga4={c.analytics?.ga4}>{children}</AnalyticsProvider>
+        {children}
         <WhatsAppFloat phone={c.contact?.whatsapp || ""} message={c.whatsapp?.defaultMessage} />
         <CookieConsent config={c.cookieConsent} />
       </body>
