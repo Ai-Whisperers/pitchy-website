@@ -29,8 +29,10 @@ export default function BlogIndex() {
         {b.posts.map((post: any) => (
           <Link key={post.slug} href={`/blog/${post.slug}`} className="group no-underline">
             <article className="rounded-xl border border-gray-200 bg-white overflow-hidden transition-all group-hover:-translate-y-1 group-hover:shadow-md">
-              <div className="h-48 bg-gradient-to-br from-[#E8ECF0] to-[#F8F9FA] flex items-center justify-center">
-                <span className="text-5xl opacity-10">✦</span>
+              <div className="h-48 bg-[#F8F9FA] overflow-hidden">
+                <img src={`/images/blog/${post.slug}.jpg`} alt={post.title}
+                  className="w-full h-full object-cover"
+                  onError={(e) => { (e.target as HTMLImageElement).style.display = 'none'; (e.target as HTMLImageElement).parentElement!.innerHTML = '<div class=\"flex items-center justify-center h-full\"><span class=\"text-5xl opacity-10\">✦</span></div>' }} />
               </div>
               <div className="p-5">
                 <div className="flex items-center gap-2 text-xs text-[#6B7280] mb-3">

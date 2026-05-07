@@ -14,6 +14,10 @@ export default function Home() {
       {/* HERO */}
       <section className="py-20 px-4 text-center relative overflow-hidden"
         style={{ background: "linear-gradient(135deg, #0F62FE 0%, #00A3E0 100%)" }}>
+        <div className="absolute inset-0 opacity-10">
+          <img src="/images/hero.jpg" alt="" className="w-full h-full object-cover"
+            onError={(e) => { (e.target as HTMLImageElement).style.display = 'none' }} />
+        </div>
         <div className="max-w-4xl mx-auto">
           <h1 className="text-4xl sm:text-5xl font-extrabold text-white mb-4 leading-tight">{h.hero?.headline}</h1>
           <p className="text-white/80 text-lg max-w-2xl mx-auto mb-8">{h.hero?.subheadline}</p>

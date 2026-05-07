@@ -15,8 +15,10 @@ export default function ProyectosPage() {
       <div className="grid gap-8 sm:grid-cols-2 lg:grid-cols-3">
         {proyectos.map((p: any, i: number) => (
           <div key={i} className="rounded-xl border border-gray-200 bg-white shadow-sm overflow-hidden hover:shadow-md transition-shadow">
-            <div className="h-48 bg-gradient-to-br from-[#E8ECF0] to-[#F8F9FA] flex items-center justify-center">
-              <span className="text-5xl opacity-30">🏗️</span>
+            <div className="h-48 bg-[#F8F9FA] overflow-hidden">
+              <img src={`/images/proyectos/proyecto-0${i+1}.jpg`} alt={p.name}
+                className="w-full h-full object-cover"
+                onError={(e) => { (e.target as HTMLImageElement).style.display = 'none'; (e.target as HTMLImageElement).parentElement!.innerHTML = '<div class=\"flex items-center justify-center h-full\"><span class=\"text-5xl opacity-30\">🏗️</span></div>' }} />
             </div>
             <div className="p-5">
               <div className="flex items-center justify-between mb-2">
