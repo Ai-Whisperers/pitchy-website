@@ -6,6 +6,8 @@ import { Footer } from "@/components/footer"
 import { CookieConsent } from "@/components/cookie-consent"
 import { WhatsAppFloat } from "@ai-whisperers/whatsapp/whatsapp-float"
 import { MobileCta } from "@/components/mobile-cta"
+import { Analytics } from "@vercel/analytics/react"
+import { SpeedInsights } from "@vercel/speed-insights/next"
 import content from "@/content/es.json"
 
 const c = content as any
@@ -24,6 +26,22 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
       <head>
         <meta name="theme-color" content={c.theme?.color || "#0F62FE"} />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <script
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{
+            __html: JSON.stringify({
+              "@context": "https://schema.org",
+              "@type": "LocalBusiness",
+              name: c.site?.title || "Pitchy Blindex",
+              description: c.site?.description || "Vidrio Blindex para construcción en Paraguay",
+              url: c.site?.url || "https://pitchy.paragu-ai.com",
+              telephone: c.contact?.whatsapp || "",
+              image: c.site?.ogImage || "",
+              address: { "@type": "PostalAddress", addressLocality: "Asunción", addressCountry: "PY" },
+              priceRange: "$$$",
+            }),
+          }}
+        />
       </head>
       <body className="antialiased pb-20 md:pb-0 min-h-screen flex flex-col bg-white text-[#1A1A2E]">
         <Header />
@@ -32,6 +50,8 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
         <WhatsAppFloat phone={c.contact?.whatsapp || ""} message={c.whatsapp?.defaultMessage} />
         <MobileCta />
         <CookieConsent />
+        <Analytics />
+        <SpeedInsights />
       </body>
     </html>
   )
