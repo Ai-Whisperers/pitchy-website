@@ -3,11 +3,10 @@ import "./globals.css"
 import { Inter } from "next/font/google"
 import { Header } from "@/components/header"
 import { Footer } from "@/components/footer"
-import { CookieConsent } from "@/components/cookie-consent"
-import { WhatsAppFloat } from "@ai-whisperers/whatsapp/whatsapp-float"
+import { WhatsAppFloat } from "@ai-whisperers/whatsapp"
+import { CookieConsent } from "@ai-whisperers/seo"
 import { MobileCta } from "@/components/mobile-cta"
-import { Analytics } from "@vercel/analytics/react"
-import { SpeedInsights } from "@vercel/speed-insights/next"
+
 import content from "@/content/es.json"
 
 const c = content as any
@@ -50,8 +49,6 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
         <WhatsAppFloat phone={c.contact?.whatsapp || ""} message={c.whatsapp?.defaultMessage} />
         <MobileCta />
         <CookieConsent />
-        <Analytics />
-        <SpeedInsights />
       </body>
     </html>
   )
